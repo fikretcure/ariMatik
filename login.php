@@ -11,7 +11,7 @@ $return = login();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="MqNdIGJ0cZ9cIjgjh4QlV8kmovG1EIpWzGLYh0Ki">
 
-    <title>Giris Yap || Ari Money - Aklinda Tut</title>
+    <title>Giris Yap || Arı Matik - Aklinda Tut</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
@@ -26,7 +26,7 @@ $return = login();
 <body class="hold-transition login-page">
 <div class="login-box">
     <div class="login-logo">
-        <a href="./login.php"><b>ARI</b>MONEY</a>
+        <a href="./login.php"><b>ARI</b>MATIK</a>
     </div>
     <!-- /.login-logo -->
     <div class="card">

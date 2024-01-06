@@ -14,12 +14,32 @@ include './view/header.php'
 ?>
 
 
-    <title>Bilgileri Guncelleme || Ari Money - Aklinda Tut</title>
+    <title>Profil Guncelleme || Arı Matik - Aklinda Tut</title>
 
 <?php
 include './view/body_a.php'
 ?>
 
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Profil Guncelleme</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+
+    <div class="container-fluid">
 
     <form method="post" action="user-update.php">
 
