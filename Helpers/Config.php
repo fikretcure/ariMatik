@@ -20,5 +20,5 @@ class Config
     /**
      *
      */
-    const MYSQL_DB_NAME = 'ari-money';
+    const MYSQL_DB_NAME = 'ari-matik';
 }

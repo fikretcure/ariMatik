@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: mysql
--- Üretim Zamanı: 06 Oca 2024, 13:48:10
+-- Üretim Zamanı: 06 Oca 2024, 14:21:34
 -- Sunucu sürümü: 8.2.0
 -- PHP Sürümü: 8.2.13
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Veritabanı: `ari-money`
+-- Veritabanı: `ari-matik`
 --
 
 -- --------------------------------------------------------
@@ -39,7 +39,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES
-(1, 'Test Name', 'test@test.com', 'b642b4217b34b1e8d3bd915fc65c4452');
+(1, 'Test Named', 'test@test.com', 'b642b4217b34b1e8d3bd915fc65c4452');
 
 --
 -- Dökümü yapılmış tablolar için indeksler
