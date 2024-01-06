@@ -1,0 +1,354 @@
+{
+	"info": {
+		"_postman_id": "f80d548b-cb66-4092-a789-1ca43e360a32",
+		"name": "Ari Money",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27186745",
+		"_collection_link": "https://www.postman.com/grey-shuttle-749376/workspace/arimoney/collection/27186745-f80d548b-cb66-4092-a789-1ca43e360a32?action=share&source=collection_link&creator=27186745"
+	},
+	"item": [
+		{
+			"name": "user.store",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Length",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Test Name\",\n    \"email\" : \"test@test.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}user-store.php",
+					"host": [
+						"{{baseUrl}}user-store",
+						"php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Store",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Length",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\" : \"Test Name\",\n    \"email\" : \"test@test.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}user-store.php",
+							"host": [
+								"{{baseUrl}}user-store",
+								"php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 06 Jan 2024 13:27:57 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.13"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"info\": \"Kullanici Basariyle Eklendi\",\n    \"data\": {\n        \"name\": \"Test Name\",\n        \"email\": \"test@test.com\",\n        \"id\": 1\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "user.update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Length",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Levent\",\n    \"email\" : \"test@test.com\",\n    \"user_id\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}user-update.php",
+					"host": [
+						"{{baseUrl}}user-update",
+						"php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Length",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Levent\",\n    \"email\" : \"test@test.com\",\n    \"user_id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}user-update.php",
+							"host": [
+								"{{baseUrl}}user-update",
+								"php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 06 Jan 2024 13:28:47 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.13"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"info\": \"Kullanici Guncelleme Basarili\",\n    \"data\": {\n        \"name\": \"Levent\",\n        \"email\": \"test@test.com\",\n        \"id\": 1\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "user.delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Length",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user_id\" : 2\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://arge.test/api/user-delete.php",
+					"protocol": "http",
+					"host": [
+						"arge",
+						"test"
+					],
+					"path": [
+						"api",
+						"user-delete.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Length",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"user_id\" : 2\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://arge.test/api/user-delete.php",
+							"protocol": "http",
+							"host": [
+								"arge",
+								"test"
+							],
+							"path": [
+								"api",
+								"user-delete.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 06 Jan 2024 13:29:31 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.13"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"info\": \"Kullanici Silme Basarili\",\n    \"data\": null\n}"
+				}
+			]
+		}
+	]
+}
